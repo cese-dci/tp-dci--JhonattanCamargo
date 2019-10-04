@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:LP5012EVM-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -287,54 +286,6 @@ Wire Wire Line
 	9200 5300 9050 5300
 Text Label 9050 5300 2    50   ~ 0
 LB10
-Text Label 9750 2100 0    50   ~ 0
-VR
-Text Label 9750 2300 0    50   ~ 0
-VBG
-Text Label 9750 2500 0    50   ~ 0
-VBG
-Wire Wire Line
-	9600 2100 9750 2100
-Wire Wire Line
-	9600 2300 9750 2300
-Wire Wire Line
-	9600 2500 9750 2500
-Text Label 9750 4150 0    50   ~ 0
-VR
-Text Label 9750 4350 0    50   ~ 0
-VBG
-Text Label 9750 4550 0    50   ~ 0
-VBG
-Wire Wire Line
-	9600 4150 9750 4150
-Wire Wire Line
-	9600 4350 9750 4350
-Wire Wire Line
-	9600 4550 9750 4550
-Text Label 9750 5100 0    50   ~ 0
-VR
-Text Label 9750 5300 0    50   ~ 0
-VBG
-Text Label 9750 5500 0    50   ~ 0
-VBG
-Wire Wire Line
-	9600 5100 9750 5100
-Wire Wire Line
-	9600 5300 9750 5300
-Wire Wire Line
-	9600 5500 9750 5500
-Text Label 9750 3050 0    50   ~ 0
-VR
-Text Label 9750 3250 0    50   ~ 0
-VBG
-Text Label 9750 3450 0    50   ~ 0
-VBG
-Wire Wire Line
-	9600 3050 9750 3050
-Wire Wire Line
-	9600 3250 9750 3250
-Wire Wire Line
-	9600 3450 9750 3450
 Text Label 7600 7500 0    79   ~ 0
 LP5012_Custom_PCB
 Text Label 8250 7650 0    59   ~ 0
@@ -486,7 +437,7 @@ Wire Wire Line
 Connection ~ 5450 3650
 Wire Wire Line
 	5450 3650 5450 3900
-Text Notes 6400 3600 0    50   ~ 0
+Text Notes 5650 4050 0    50   ~ 0
 Via Layout Design from the chip manufacturer.\nPage 45: http://www.ti.com/lit/ds/symlink/lp5012.pdf\n
 Wire Wire Line
 	4300 2050 5600 2050
@@ -508,4 +459,104 @@ Text Notes 4150 3550 0    50   ~ 0
 Iset = 73.5/R4
 Text Notes 4150 3650 0    50   ~ 0
 Iset(3.3k) = 22.3mA
+$Comp
+L power:VCC #PWR0107
+U 1 1 5D98000B
+P 9900 1950
+F 0 "#PWR0107" H 9900 1800 50  0001 C CNN
+F 1 "VCC" H 9917 2123 50  0000 C CNN
+F 2 "" H 9900 1950 50  0001 C CNN
+F 3 "" H 9900 1950 50  0001 C CNN
+	1    9900 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0110
+U 1 1 5D981315
+P 9900 2900
+F 0 "#PWR0110" H 9900 2750 50  0001 C CNN
+F 1 "VCC" H 9917 3073 50  0000 C CNN
+F 2 "" H 9900 2900 50  0001 C CNN
+F 3 "" H 9900 2900 50  0001 C CNN
+	1    9900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0111
+U 1 1 5D981A4D
+P 9900 4000
+F 0 "#PWR0111" H 9900 3850 50  0001 C CNN
+F 1 "VCC" H 9917 4173 50  0000 C CNN
+F 2 "" H 9900 4000 50  0001 C CNN
+F 3 "" H 9900 4000 50  0001 C CNN
+	1    9900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0112
+U 1 1 5D981FA3
+P 9950 4950
+F 0 "#PWR0112" H 9950 4800 50  0001 C CNN
+F 1 "VCC" H 9967 5123 50  0000 C CNN
+F 2 "" H 9950 4950 50  0001 C CNN
+F 3 "" H 9950 4950 50  0001 C CNN
+	1    9950 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2500 9900 2300
+Wire Wire Line
+	9600 2500 9900 2500
+Connection ~ 9900 2100
+Wire Wire Line
+	9900 2100 9900 1950
+Wire Wire Line
+	9600 2100 9900 2100
+Connection ~ 9900 2300
+Wire Wire Line
+	9900 2300 9900 2100
+Wire Wire Line
+	9900 3450 9900 3250
+Wire Wire Line
+	9600 3450 9900 3450
+Wire Wire Line
+	9600 3050 9900 3050
+Connection ~ 9900 3050
+Wire Wire Line
+	9900 3050 9900 2900
+Wire Wire Line
+	9600 3250 9900 3250
+Connection ~ 9900 3250
+Wire Wire Line
+	9900 3250 9900 3050
+Wire Wire Line
+	9900 4550 9900 4350
+Wire Wire Line
+	9600 4550 9900 4550
+Wire Wire Line
+	9600 4150 9900 4150
+Connection ~ 9900 4150
+Wire Wire Line
+	9900 4150 9900 4000
+Wire Wire Line
+	9600 4350 9900 4350
+Connection ~ 9900 4350
+Wire Wire Line
+	9900 4350 9900 4150
+Wire Wire Line
+	9950 5500 9950 5300
+Wire Wire Line
+	9600 5500 9950 5500
+Wire Wire Line
+	9600 5100 9950 5100
+Connection ~ 9950 5100
+Wire Wire Line
+	9950 5100 9950 4950
+Wire Wire Line
+	9600 5300 9950 5300
+Connection ~ 9950 5300
+Wire Wire Line
+	9950 5300 9950 5100
+Wire Wire Line
+	9600 2300 9900 2300
 $EndSCHEMATC
