@@ -335,9 +335,9 @@ Wire Wire Line
 	9600 3250 9750 3250
 Wire Wire Line
 	9600 3450 9750 3450
-Text Label 7600 7500 0    50   ~ 0
+Text Label 7600 7500 0    79   ~ 0
 LP5012_Custom_PCB
-Text Label 8250 7650 0    50   ~ 0
+Text Label 8250 7650 0    59   ~ 0
 20-09-2019
 $Comp
 L LP5012_SCH:LP5012 U1

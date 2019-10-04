@@ -336,7 +336,7 @@ Wire Wire Line
 Wire Wire Line
 	9600 3450 9750 3450
 Text Label 7600 7500 0    50   ~ 0
-LP5012_Evaluation_Board
+LP5012_Custom_PCB
 Text Label 8250 7650 0    50   ~ 0
 20-09-2019
 $Comp
