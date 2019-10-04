@@ -1,2 +1,3 @@
 (sym_lib_table
+  (lib (name LP5012_SCH)(type Legacy)(uri ${KIPRJMOD}/LP5012_SCH.lib)(options "")(descr ""))
 )
