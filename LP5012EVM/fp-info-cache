@@ -1,4 +1,4 @@
-16301030725224984
+16302600513008437
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44652,6 +44652,13 @@ EMI Filter
 0
 19
 4
+Footprint LP5012
+PQFN21P40_300X300X80L40X20T180
+Pullback Quad Flat No-Lead (PQFN with Tab), 0.40 mm pitch; square, 5 pin X 5 pin, 3.00 mm L X 3.00 mm W X 0.80 mm H body
+
+0
+25
+21
 Fuse
 Fuse_0201_0603Metric
 Fuse SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
