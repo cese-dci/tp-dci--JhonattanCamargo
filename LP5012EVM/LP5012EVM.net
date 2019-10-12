@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:\\Users\\Jhonattan-PC\\Google Drive\\CESE\\4. Diseño de circuitos Impresos\\Repo TP\\tp-dci--JhonattanCamargo\\LP5012EVM\\LP5012EVM.sch")
-    (date "11/10/2019 20:13:20")
+    (date "12/10/2019 20:28:41")
     (tool "Eeschema (5.1.4)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -59,7 +59,7 @@
       (tstamp 5D92CB70))
     (comp (ref U1)
       (value LP5012)
-      (footprint "Footprint LP5012:PQFN21P40_300X300X80L40X20T180")
+      (footprint "Footprint LP5012:LP5012")
       (libsource (lib LP5012_SCH) (part LP5012) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5D99BF30))

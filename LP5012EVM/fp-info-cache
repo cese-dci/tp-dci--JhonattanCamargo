@@ -1,4 +1,4 @@
-16302600513008437
+16305743491570940
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -44653,12 +44653,19 @@ EMI Filter
 19
 4
 Footprint LP5012
-PQFN21P40_300X300X80L40X20T180
+LP5012
 Pullback Quad Flat No-Lead (PQFN with Tab), 0.40 mm pitch; square, 5 pin X 5 pin, 3.00 mm L X 3.00 mm W X 0.80 mm H body
 
 0
-25
-21
+26
+26
+Footprint Logo
+Logo_Smartium
+
+
+0
+0
+0
 Fuse
 Fuse_0201_0603Metric
 Fuse SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -49629,6 +49636,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Logo
+Logo Smartium
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
