@@ -331,10 +331,6 @@ Wire Wire Line
 	1650 3400 1650 4250
 Text Label 1350 3700 0    50   ~ 0
 IN_EN
-Text Label 1350 3800 0    50   ~ 0
-ADDR0
-Text Label 1350 3900 0    50   ~ 0
-ADDR1
 Wire Wire Line
 	1650 2850 1650 3150
 Wire Wire Line
@@ -408,8 +404,6 @@ Wire Wire Line
 	4550 2800 4550 2600
 Wire Wire Line
 	1350 3700 1750 3700
-Wire Wire Line
-	1750 3800 1350 3800
 Wire Wire Line
 	1750 3900 1350 3900
 Wire Wire Line
@@ -516,8 +510,6 @@ Text Notes 3950 5250 0    98   ~ 0
 LED Driver IC
 Text Notes 8700 6000 0    98   ~ 0
 LEDs
-Text Notes 7000 6950 0    98   ~ 0
-Author: Jhonattan Camargo
 Text Label 1350 3600 0    50   ~ 0
 SDA
 Text Label 1350 3500 0    50   ~ 0
@@ -616,4 +608,12 @@ Wire Wire Line
 	9900 4950 9900 5300
 Wire Wire Line
 	9900 4000 9900 4350
+Text Notes 7000 7000 0    118  ~ 0
+Project Name: LP5012 Led Driver Module\nAuthor: Jhonattan Camargo
+Text Label 1350 3800 0    50   ~ 0
+ADDR1
+Wire Wire Line
+	1750 3800 1350 3800
+Text Label 1350 3900 0    50   ~ 0
+ADDR0
 $EndSCHEMATC
