@@ -11,3 +11,9 @@ El repositorio está organizado de la siguiente forma:
   - Directorio “info”: contiene hojas de datos, y toda la información relevante como fotos o notas de aplicación.
   - Directorio “pcb”: archivos del proyecto Kicad.
     - Subdirectorio “3dshapes”: contiene los modelos 3D.
+   
+   
+
+### Renders del proyecto:
+![Alt text](pcb/Renders/Board Bottom First Render.jpg?raw=true "Title")
+![Alt text](pcb/Renders/Board Top First Render.jpg?raw=true "Title")
