@@ -7,10 +7,7 @@ El proyecto consiste en la elaboración de uno de lós módulos del proyecto fin
 
 El repositorio está organizado de la siguiente forma:
   
-  - Directorio “doc”: contiene la explicación del circuito, licencia y las
-revisiones realizadas al diseño. Aquí se agrega cualquier otra
-documentación que genere el alumno.
-  - Directorio “info”: contiene hojas de datos, y toda la información
-relevante como fotos o notas de aplicación.
+  - Directorio “doc”: contiene la explicación del circuito, licencia y las revisiones realizadas al diseño.
+  - Directorio “info”: contiene hojas de datos, y toda la información relevante como fotos o notas de aplicación.
   - Directorio “pcb”: archivos del proyecto Kicad.
     - Subdirectorio “3dshapes”: contiene los modelos 3D.
