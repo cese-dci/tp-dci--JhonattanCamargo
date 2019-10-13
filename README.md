@@ -16,6 +16,6 @@ El repositorio está organizado de la siguiente forma:
 
 ### Renders del proyecto:
 
-![Alt text](/pcb/Renders/Board Bottom First Render.jpg?raw=true "Render Top Side")
+![Alt text](relative/pcb/Renders/Board Bottom First Render.jpg?raw=true "Render Top Side")
 
-![Alt text](/pcb/Renders/Board Top First Render.jpg?raw=true "Render Bottom Side")
+![Alt text](relative/pcb/Renders/Board Top First Render.jpg?raw=true "Render Bottom Side")
