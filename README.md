@@ -16,6 +16,6 @@ El repositorio está organizado de la siguiente forma:
 
 ### Renders del proyecto:
 
-![Alt text](pcb/Renders/RenderReadmeBottom.jpg)
+![Alt text](pcb/Renders/RenderReadmeTop.jpg)
 
 ![alt text](pcb/Renders/RenderReadmeBottom.jpg)
