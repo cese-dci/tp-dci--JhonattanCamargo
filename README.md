@@ -16,6 +16,6 @@ El repositorio está organizado de la siguiente forma:
 
 ### Renders del proyecto:
 
-![Alt text](master/pcb/Renders/Board Top First Render.jpg?raw=true "Render Bottom Side")
+![Alt text](pcb/Renders/RenderReadmeBottom.jpg)
 
-![alt text](https://raw.githubusercontent.com/cese-dci/tp-dci--JhonattanCamargo/master/pcb/Renders/Board Top First Render.jpg)
+![alt text](pcb/Renders/RenderReadmeBottom.jpg)
