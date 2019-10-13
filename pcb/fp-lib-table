@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name LED_RGB_1210)(type KiCad)(uri "${KIPRJMOD}/Footprint LED RGB/LED_RGB_1210.pretty")(options "")(descr ""))
+  (lib (name "Footprint LP5012")(type KiCad)(uri "${KIPRJMOD}/Footprint LP5012")(options "")(descr ""))
+  (lib (name pcb)(type KiCad)(uri "${KIPRJMOD}/Footprint Conector TH 2.54mm/pcb.pretty")(options "")(descr ""))
+  (lib (name "Connector Custom")(type KiCad)(uri "${KIPRJMOD}/Footprint Conector TH 2.54mm/Connector Custom.pretty")(options "")(descr ""))
+)

@@ -1,4 +1,4 @@
-(module LP5012 (layer F.Cu) (tedit 5DA2637B)
+(module LP5012 (layer F.Cu) (tedit 5DA349B7)
   (descr "Pullback Quad Flat No-Lead (PQFN with Tab), 0.40 mm pitch; square, 5 pin X 5 pin, 3.00 mm L X 3.00 mm W X 0.80 mm H body")
   (attr smd)
   (fp_text reference U** (at 2.54 2.032) (layer F.SilkS)
@@ -46,4 +46,9 @@
   (pad 24 thru_hole circle (at 0 0) (size 0.45 0.45) (drill 0.3) (layers *.Cu *.Mask))
   (pad 25 thru_hole circle (at -0.5 0.5) (size 0.45 0.45) (drill 0.3) (layers *.Cu *.Mask))
   (pad 26 thru_hole circle (at 0.5 0.5) (size 0.45 0.45) (drill 0.3) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/3dshapes/lp5012.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.4 0.4 0.4))
+    (rotate (xyz 0 0 0))
+  )
 )
