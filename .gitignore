@@ -1,6 +1,4 @@
-pcb/LP5012-cache.lib
-pcb/LP5012.sch-bak
+*.sch-bak
 pcb/fp-info-cache
 pcb/sym-lib-table
-pcb/*.kicad_pcb-bak
-pcb/LP5012.kicad_pcb-bak
+*.kicad_pcb-bak
