@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 16)
+    (drawings 17)
     (tracks 198)
     (zones 0)
     (modules 16)
@@ -30,7 +30,7 @@
     (46 B.CrtYd user hide)
     (47 F.CrtYd user hide)
     (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -1022,6 +1022,9 @@
       (xy -4.235267 0.235728) (xy -4.090427 0.253706) (xy -4.00685 0.256255) (xy -3.873174 0.251818)) (layer B.SilkS) (width 0.01))
   )
 
+  (gr_text "Terminación superficial: HASL con plomo\nGrosor: 1.6mm\nMateríal: FR4 TG130-140\nColor de Máscara de soldadura: Verde\nColor de Serigrafía: Blanco\nMínimo ancho de pista: 0.2mm\nMínimo diámetro de perforación:  0.5mm\nGrilla utilizada: 0.1mm\n" (at 165.4 94.3) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
   (gr_text "Led Driver\nVersion 1.0" (at 148.2 91.7 270) (layer B.SilkS) (tstamp 5DA2548D)
     (effects (font (size 1 1) (thickness 0.2)) (justify left mirror))
   )
